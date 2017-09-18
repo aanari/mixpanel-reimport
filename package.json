@@ -1,0 +1,45 @@
+{
+  "name": "mixpanel-reimport",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Ali Anari <ali@anari.io>",
+  "contributors": [
+    {
+      "name": "mixpanel-reimport contributors",
+      "url": "https://github.com/aanari/mixpanel-reimport/graphs/contributors"
+    }
+  ],
+  "keywords": [
+    "mixpanel",
+    "analytics",
+    "api",
+    "data",
+    "export",
+    "import",
+    "events",
+    "reimport"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aanari/mixpanel-reimport.git"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "lodash": "^4.17.4",
+    "mixpanel-data-export-node": "github:strawbrary/mixpanel-data-export-js",
+    "moment": "^2.18.1",
+    "needle": "^2.0.1",
+    "query-string": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "main": "./lib",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "license": "MIT"
+}
